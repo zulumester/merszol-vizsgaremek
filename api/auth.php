@@ -1,10 +1,10 @@
 <?php
 
-// minden OPTIONS request engedélyezése
+
 if ($_SERVER['REQUEST_METHOD'] == 'OPTIONS') {
     return true;
 }
-// annak az url paramétereknek a listája amikhez nem kell authentikáció
+
 $noAuthResources = [
     'GET' => ['referenceimages&references'],
     'POST' => ['quotation&makeQuotation'],
