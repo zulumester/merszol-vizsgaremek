@@ -1,0 +1,1 @@
+CREATE TABLE `merszol`.`referenceimages` ( `id` INT NOT NULL AUTO_INCREMENT , `imageSource` VARCHAR(255) NOT NULL , `imageTitle` VARCHAR(255) NOT NULL , `imageAlt` VARCHAR(255) NOT NULL , PRIMARY KEY (`id`)) ENGINE = InnoDB;

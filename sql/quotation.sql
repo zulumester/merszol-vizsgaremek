@@ -1,0 +1,1 @@
+CREATE TABLE `merszol`.`quotation` ( `id` INT NOT NULL AUTO_INCREMENT , `type` VARCHAR(100) NOT NULL , `emailAddress` VARCHAR(255) NOT NULL , `description` VARCHAR(2000) NOT NULL , PRIMARY KEY (`id`)) ENGINE = InnoDB;
